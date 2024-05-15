@@ -97,13 +97,14 @@
 }
 
 .infoHome button{
-    width: 150px;
+    width: 200px;
     height: 2.5rem; 
     color: white;
     border-style: none;
     cursor: pointer;
     background:rgb(179, 21, 21);
     border-radius: 100px;
+    margin-top: 10px;
     font-size: 15px;
 }
 
@@ -129,4 +130,132 @@
     color: rgb(179, 21, 21);
     border-bottom: solid 1px  rgb(179, 21, 21);
     transition: 500ms;
+}
+
+@media(max-width: 1000px){    
+    .header a{
+        font-size: 15px;
+    }
+    
+    .infoHome{
+        width: 100%;
+        height: 90%;
+        padding-left: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        z-index: 10;
+        gap: 1rem;
+        color: white;
+    }
+
+    .infoHome h1{
+        font-size: 40px;  
+    }
+
+    .infoHome h1::before{
+        content: 'War';
+        color: rgb(179, 21, 21);
+        padding-right: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .infoHome p{
+        font-size: 17px;
+        padding-left: 1px;
+    }
+
+    .infoHome button{
+        width: 150px;
+        height: 2rem; 
+        color: white;
+        border-style: none;
+        cursor: pointer;
+        background:rgb(179, 21, 21);
+        border-radius: 100px;
+        margin-top: 10px;
+        font-size: 15px;
+}
+
+}
+
+@media(max-width: 700px){    
+    .header a{
+        font-size: 10px;
+    }
+    
+    .infoHome{
+        width: 100%;
+        height: 90%;
+    }
+
+    .infoHome h1{
+        font-size: 30px;  
+    }
+
+    .infoHome h1::before{
+        content: 'War';
+        color: rgb(179, 21, 21);
+        padding-right: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .infoHome p{
+        font-size: 10px;
+        padding-left: 1px;
+    }
+
+    .infoHome button{
+        width: 100px;
+        height: 1.5rem; 
+        color: white;
+        border-style: none;
+        cursor: pointer;
+        background:rgb(179, 21, 21);
+        border-radius: 100px;
+        margin-top: 10px;
+        font-size: 10px;
+}
+
+}
+
+@media(max-width: 470px){    
+    .header a{
+        font-size: 7px;
+    }
+    
+    .infoHome{
+        width: 100%;
+        height: 90%;
+    }
+
+    .infoHome h1{
+        font-size: 30px;  
+    }
+
+    .infoHome h1::before{
+        content: 'War';
+        color: rgb(179, 21, 21);
+        padding-right: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .infoHome p{
+        font-size: 10px;
+        padding-left: 1px;
+    }
+
+    .infoHome button{
+        width: 100px;
+        height: 1.5rem; 
+        color: white;
+        border-style: none;
+        cursor: pointer;
+        background:rgb(179, 21, 21);
+        border-radius: 100px;
+        margin-top: 10px;
+        font-size: 10px;
+}
+
 }

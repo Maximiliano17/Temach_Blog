@@ -48,3 +48,50 @@
     line-height: 1.5;
     padding-left: 5px;
 }
+
+@media(max-width: 1000px){
+    .containerQuienSoy{
+        height: fit-content;
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .infoImagen{
+        height: 80%;
+    }
+    
+    .infoImagen img{
+        width: 250px;
+    }
+    
+    .infoQuien{
+        width: 70%;
+        height: 90%;
+        display: flex;
+        justify-content:center;
+        align-items: start;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .infoQuien h2{
+        width: 100%;
+    }
+    
+    .infoQuien p{
+        font-size: 17px;
+        line-height: 1.5;
+        padding-left: 5px;
+    }
+    
+}
+
+@media(max-width: 425px){
+    .infoQuien{
+        width: 100%;
+    }
+
+    .infoQuien h2{
+        font-size: 25px;
+    }
+}

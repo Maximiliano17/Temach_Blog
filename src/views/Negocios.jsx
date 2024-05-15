@@ -16,17 +16,17 @@ function Negocio(){
                 <a href="https://www.youtube.com/@ELTEMACH" target="_BLANCK" className={styles.canalSecundario}>
                    <img alt="EL TEMACH MORRAS" title="EL TEMACH MORRAS" loading="lary" src={canalMorras} />
                 </a>
-                <a href="https://www.youtube.com/@ELTEMACH" target="_BLANCK" className={styles.canalSecundario}>
-                 <img alt="EL TEMACH MORRAS" title="EL TEMACH MORRAS" loading="lary" src={canalGamer} />
+                <a href="https://www.youtube.com/@TemachGaming" target="_BLANCK" className={styles.canalSecundario}>
+                 <img alt="EL TEMACH MORRAS" title="EL TEMACH GAMING" loading="lary" src={canalGamer} />
                 </a>
-                <a href="https://www.youtube.com/@ELTEMACH" target="_BLANCK" className={styles.canalSecundario}>
-                 <img alt="EL TEMACH MORRAS" title="EL TEMACH MORRAS" loading="lary" src={canalMilitante} />
+                <a href="https://www.youtube.com/@CombateMilitante" target="_BLANCK" className={styles.canalSecundario}>
+                 <img alt="EL TEMACH MORRAS" title="EL TEMACH MILITANTE" loading="lary" src={canalMilitante} />
                 </a>
-                <a href="https://www.youtube.com/@ELTEMACH" target="_BLANCK" className={styles.canalSecundario}>
-                 <img alt="EL TEMACH MORRAS" title="EL TEMACH MORRAS" loading="lary" src={canalCrew} />
+                <a href="https://www.youtube.com/@eltemachcrew" target="_BLANCK" className={styles.canalSecundario}>
+                 <img alt="EL TEMACH MORRAS" title="EL TEMACH CREW" loading="lary" src={canalCrew} />
                 </a>
-                <a href="https://www.youtube.com/@ELTEMACH" target="_BLANCK" className={styles.canalSecundario}>
-                 <img alt="EL TEMACH MORRAS" title="EL TEMACH MORRAS" loading="lary" src={canalMati} />
+                <a href="https://www.youtube.com/@temachymati" target="_BLANCK" className={styles.canalSecundario}>
+                 <img alt="EL TEMACH MORRAS" title="EL TEMACH MATI" loading="lary" src={canalMati} />
                 </a>
             </div> 
          </seccion>
