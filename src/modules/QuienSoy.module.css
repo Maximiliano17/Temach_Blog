@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.containerQuienSoy{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.infoImagen{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.infoImagen img{
+    width: 300px;
+    height: fit-content;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.infoQuien{
+    width: 35%;
+    height: 90%;
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.infoQuien h2{
+    font-size: 35px;
+}
+
+.infoQuien p{
+    font-size: 17px;
+    line-height: 1.5;
+    padding-left: 5px;
+}

@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ContaierHome {
+    position: relative;  
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../assets/bannerTemach.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ContaierHome::after {
+    content: " ";
+    background: rgba(0, 0, 0, 0.747);
+    z-index: 1;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+}
+
+.redContact{
+    width: 50px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0; 
+    margin-right: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.redContact a{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redContact img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconoG img{
+    width: 83%;
+}
+
+.infoHome{
+    width: 100%;
+    height: 500px;
+    padding-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    z-index: 10;
+    gap: 1rem;
+    color: white;
+}
+
+.infoHome h1{
+    font-size: 60px;  
+}
+
+.infoHome h1::before{
+    content: 'War';
+    color: rgb(179, 21, 21);
+    padding-right: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.infoHome p{
+    font-size: 25px;
+    padding-left: 1px;
+}
+
+.infoHome button{
+    width: 150px;
+    height: 2.5rem; 
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    background:rgb(179, 21, 21);
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+.header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 100;
+    gap: 1rem;
+    padding-right: 20px;
+} 
+
+.header a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
+} 
+
+.header a:hover{
+    color: rgb(179, 21, 21);
+    border-bottom: solid 1px  rgb(179, 21, 21);
+    transition: 500ms;
+}
