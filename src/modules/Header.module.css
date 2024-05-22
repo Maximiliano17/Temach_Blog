@@ -42,13 +42,19 @@
     transition: 500ms;
 }
 
+.navBar a:hover,
+.navBar .active {
+  border-bottom: solid 1px white;
+  transition: 500ms;
+}
+
 .header button{
     width: 150px;
     height: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:.5rem; 
+    gap:.5rem;  
     border-style: none;
     cursor: pointer;
     background:rgb(240, 52, 52);

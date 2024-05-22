@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom";
 //Styles
 import styles from "../modules/Header.module.css"
 //Imagenes
@@ -9,11 +10,11 @@ function Header(){
         <> 
         <header className={styles.header}> 
           <nav className={styles.navBar}>
-              <Link  to={`/`}  className={styles.listitem}> 
+              <NavLink exact to={`/`} className={styles.listitem} activeClassName={styles.active} > 
                 Inicio
-              </Link> 
+              </NavLink> 
               <Link  to={`/Guia`}  className={styles.listitem}> 
-                Como empezar
+                Como empezar 
               </Link> 
               <a href="#">Temach entrevista</a>
               <a href="#">Compas de hierro</a>
