@@ -4,21 +4,14 @@ import styles from "../modules/Home.module.css"
 import iconY from "../assets/icons/youtube.png"
 import iconI from "../assets/icons/instagram.png"
 import iconT from "../assets/icons/twitch.png"
+import { Link } from "react-router-dom"
+import Header from "../componets/Header"
 
 function Home(){
-    return(   
+    return(     
         <>
-        <div className={styles.ContaierHome}>
-        
-        <header className={styles.header}>  
-
-          <a href="#">Inicio</a>
-          <a href="#">Como empezar</a>
-          <a href="#">Temach entrevista</a>
-          <a href="#">Compas de hierro</a>
-          <a href="#">Mercancia de la comunidad</a>
-          
-        </header> 
+        <div className={styles.ContaierHome}>    
+         <Header />
           <section className={styles.infoHome}> 
             <h1>Mode 🔥</h1>
             <p>Puro modo guerra mi compa!!</p>
