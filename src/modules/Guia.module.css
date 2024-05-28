@@ -160,11 +160,11 @@
 }
 
 @media(max-width: 1250px){
+    .ContainerGuia{
+        margin-bottom: 20px; 
+        height: fit-content;
+    }
     .guiaInicio{
-    }
-    
-    .infoGuia{
         display: none;
-    }
-    
+    }  
 }

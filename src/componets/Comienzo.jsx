@@ -2,9 +2,9 @@
 import styles from "../modules/Guia.module.css"
 //React 
 import ReactPlayer from "react-player"; 
- 
-function Comienzo(){
-    return( 
+
+function Comienzo(){ 
+    return(  
         <> 
          <div className={styles.ComienzoContainer}>
             <article className={styles.shortInfo}>

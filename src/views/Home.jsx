@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 import Header from "../componets/Header"
 
 function Home(){
-    return(     
+    return(      
         <> 
         <div className={styles.ContaierHome}>    
          <Header />

@@ -4,10 +4,11 @@ import ReactDOM from 'react-dom/client'
 import {
   createBrowserRouter, 
   RouterProvider,
-} from "react-router-dom";
+} from "react-router-dom"; 
 //Components
 import App from './App.jsx'
 import Guia from './views/GuiaView.jsx';
+import Creadores from './views/CreadoresComunidad.jsx';
   
 //Rutas
 
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   { 
     path: "/Guia",
     element: <Guia/>, 
+  },
+  { 
+    path: "/Recomendados",
+    element: <Creadores/>, 
   }, 
 ]);
 

@@ -10,7 +10,7 @@ function Guia(){
     return( 
         <>
          <div className={styles.ContainerGuia}>
-          <Header />
+          <Header />    
           <div className={styles.guiaInicio}>
             <section className={styles.videoGuia}>
              <ReactPlayer
@@ -18,7 +18,6 @@ function Guia(){
                  url='https://youtu.be/1Z29SPNuuTM?si=b-BcjULSM5ppqs-r'
                  controls = {true}
                  playing={true}
-               
               />
             </section>
             <section className={styles.infoGuia}>

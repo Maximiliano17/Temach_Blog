@@ -6,7 +6,7 @@ import styles from "../modules/Header.module.css"
 import imagen from "../assets/icons/web.png"
 
 function Header(){ 
-    return(  
+    return(   
         <> 
         <header className={styles.header}> 
           <nav className={styles.navBar}>
@@ -15,6 +15,9 @@ function Header(){
               </NavLink> 
               <Link  to={`/Guia`}  className={styles.listitem}> 
                 Como empezar 
+              </Link> 
+              <Link  to={`/Recomendados`}  className={styles.listitem}> 
+                Creadores recomendados 
               </Link> 
               <a href="#">Temach entrevista</a>
               <a href="#">Compas de hierro</a>
